@@ -10,7 +10,7 @@ import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { useToast } from "../hooks/use-toast";
 import RangeSlider from "./ui/Range";
-import Bookingcontent from "./bookingcontent"
+import Bookingcontent from "./Bookingcontent"
 import {
   Select,
   SelectContent,
