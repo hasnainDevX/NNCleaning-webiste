@@ -213,7 +213,7 @@ const Booking = () => {
             className="bg-white rounded-2xl shadow-xl p-8 border border-orange-100"
           >
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">
+              <h3 className="text-3xl font-bold text-gray-800 mb-2">
                 Get Your Quote
               </h3>
               <p className="text-gray-600">Fill out the form below</p>
