@@ -113,7 +113,7 @@ const Header = () => {
           whileHover={{ scale: 1.05 }}
         >
           <span className="text-orange-600 font-medium text-xs">
-            #1 Cleaning Service in Vancouver
+            #1 Cleaning Service in British Columbia
           </span>
           <div className="flex text-orange-400 text-[10px]">
             {[...Array(5)].map((_, i) => (

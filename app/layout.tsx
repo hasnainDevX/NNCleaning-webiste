@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Toaster } from "@/app/components/ui/toaster";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "NN Sparkling Solutions",
@@ -29,10 +30,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {children}
         <Toaster />
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LKZ6H0XQ3P"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LKZ6H0XQ3P');
+          `}
+        </Script>
+
+        {/* Typed.js (optional) */}
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
           integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
-          crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

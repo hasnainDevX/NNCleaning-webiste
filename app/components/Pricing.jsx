@@ -29,7 +29,7 @@ const PackagesSection = () => {
     {
       id: 'standard',
       name: 'Standard Package',
-      price: '$35',
+      price: '$30',
       description: 'Perfect for regular maintenance cleaning with your own supplies',
       icon: <Home className="w-6 h-6" />,
       popular: false,
@@ -46,7 +46,7 @@ const PackagesSection = () => {
     {
       id: 'premium',
       name: 'Premium Package',
-      price: '$40',
+      price: '$35',
       description: 'Complete service with professional-grade supplies included with every booking',
       icon: <Sparkles className="w-6 h-6" />,
       popular: true,
