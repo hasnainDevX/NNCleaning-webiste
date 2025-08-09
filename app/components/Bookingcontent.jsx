@@ -1,5 +1,4 @@
 import { FaCalendarAlt, FaHome } from "react-icons/fa";
-
 const bookingcontent = () => {
   return (
     <>
@@ -44,7 +43,6 @@ const bookingcontent = () => {
         <div>
           <div className="mt-2 w-full">
             <div className="flex items-center gap-2">
-              {/* <span className="font-semibold">Note:</span> */}
             </div>
             <div className="text-gray-700">
               You will receive a verification call from the cleaner upon arrival

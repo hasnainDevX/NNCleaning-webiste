@@ -51,7 +51,7 @@ const About = () => {
       setCopied(true);
       toast({
         title: "Email Copied!",
-        description: "nnsparklingsolutions.ca@gmail.com has been copied to clipboard",
+        description: "nnsparklingsolutions.ca has been copied to clipboard",
         duration: 3000,
       });
       setTimeout(() => setCopied(false), 2000);
