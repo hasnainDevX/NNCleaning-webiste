@@ -383,7 +383,8 @@ const Booking = () => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="Standard Package">Standard Package (without supplies - $30/hr)</SelectItem>
-                    <SelectItem value="Premium Package">Premium Package (with supplies - $35/hr)</SelectItem>
+                    <SelectItem value="Premium Package">Premium Package (with supplies - $40/hr)</SelectItem>
+                    <SelectItem value="Move in/Move out Cleaning">Move in/Move out Cleaning (with supplies - $40/hr)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

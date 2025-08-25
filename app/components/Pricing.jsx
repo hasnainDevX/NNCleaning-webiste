@@ -46,7 +46,7 @@ const PackagesSection = () => {
     {
       id: 'premium',
       name: 'Premium Package',
-      price: '$35',
+      price: '$40',
       description: 'Complete service with professional-grade supplies included with every booking',
       icon: <Sparkles className="w-6 h-6" />,
       popular: true,
