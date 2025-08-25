@@ -32,12 +32,11 @@ const PackagesSection = () => {
       price: '$30',
       description: 'Perfect for regular maintenance cleaning with your own supplies',
       icon: <Home className="w-6 h-6" />,
-      popular: false,
+      popular: true,
       features: [
-        'Dusting all surfaces',
+        'Deep Cleaning',
         'Vacuuming all carpets',
         'Mopping hard floors',
-        'Bathroom cleaning',
         'Kitchen cleaning',
         'Trash removal'
       ],
@@ -49,14 +48,14 @@ const PackagesSection = () => {
       price: '$40',
       description: 'Complete service with professional-grade supplies included with every booking',
       icon: <Sparkles className="w-6 h-6" />,
-      popular: true,
+      popular: false,
       features: [
         'Everything in Standard Package',
         'Professional cleaning supplies',
         'Deep cleaning solutions',
         'Eco-friendly products',
         'Interior window cleaning',
-        'Inside oven & refrigerator'
+        'organizing and decluttering Services'
       ],
       includes: 'All supplies & equipment included'
     }
