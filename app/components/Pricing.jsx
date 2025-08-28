@@ -34,7 +34,7 @@ const PackagesSection = () => {
       icon: <Home className="w-6 h-6" />,
       popular: true,
       features: [
-        'Deep Cleaning',
+        'Deep Cleaning solutions',
         'Vacuuming all carpets',
         'Mopping hard floors',
         'Kitchen cleaning',
@@ -52,10 +52,9 @@ const PackagesSection = () => {
       features: [
         'Everything in Standard Package',
         'Professional cleaning supplies',
-        'Deep cleaning solutions',
-        'Eco-friendly products',
+        'Eco-friendly products - (vacuum and Mop not included)',
         'Interior window cleaning',
-        'organizing and decluttering Services'
+        'Organizing and decluttering Services'
       ],
       includes: 'All supplies & equipment included'
     }
